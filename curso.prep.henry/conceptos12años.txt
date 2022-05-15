@@ -1,0 +1,49 @@
+
+            "Explicacion a un niño de 12 años"
+
+variables: 
+es como una caja donde podes guardar o almacenar numeros, textos osea algo para 
+despues utilisarlo.
+ EJEMPLO:
+                            VAR CAJA = 10  (al hacer esto estoy diciendo que adentro de caja
+                                           esta el numero 10 )
+  
+Instrumentos de cuerda: son para hacer musica que al tocar las cuerdas estas vibran
+ y se produce el sonido .
+
+Funciones (argumentos, return): las Funciones es para que nos haga una 
+tarea o calcula valores, es decir que al nombrar una funcion despues
+ la podemos llamar por el nombre que le dimos mas los argumento que pusimos
+entre parentesis EJEMPLO:
+ function resta (numero1,numero2) {
+      var resultado = numero1-numero2; CREAMOS LA VARIABLE RESULTADO ES LA RESTA DE DOS NUMEROS.
+      document.write( "el resultado obtenido es: " + resultado ); SE IMPRIME EN LA PANTALLA
+      
+      return numero1-numero2 RETORNA O DEVUELVE  EL RESULTADO.
+      }
+
+      var numero1 = 10; ESTA SON LAS VARIABLES DECLARADAS
+      var numero2 = 10;
+
+      resta( numero1, numero2 ); AQUI SE LLAMA O INVOCAMOS A LA FUNCION.
+    
+}
+ 
+Declaracionesif: esta condicion se utiliza para tomar deciciones 
+EJEMPLO:  var edad= 18 AQUI EL NOMBRE edad TIENE ALMACENADO 18 
+
+       if (edad==18) { IF QUIERE DECIR QUE SI ES VERDADERO QUE SI EDAD ES IGUAL A 18
+       PONER alert " SOS MAYOR EN LA PAMTALLA.
+        alert( "sos mayor");
+       }
+        else { SI ES LO CONTRARIO OSEA FALSO ENTONCES PONER alert "NO SOS MAYOR
+
+        alert( "no sos mayor")
+       }
+
+
+
+
+Valores booleanos ( true, false)
+                                         
+la logica booleanos significa que hay dos respuestas VERDADERO O FALSO 
